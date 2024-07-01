@@ -1,2 +1,13 @@
 !#/bin/bash
-echo "it must be working"
+
+num1=35
+num2=25
+
+if ((num1=35))
+then
+echo "Mukunzi"
+elif ((num2=25))
+then 
+echo "BObo"
+else
+echo "Unknown user"
